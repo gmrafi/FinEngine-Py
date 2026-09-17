@@ -81,13 +81,13 @@ from finengine import amortize, format_money
 plan = amortize(principal=500000, annual_rate=13.5, months=36)
 
 print(f"Monthly Payment: {format_money(plan.monthly_payment, 'BDT')}")
-# → Monthly Payment: BDT 16,967.64
+# -> Monthly Payment: BDT 16,967.64
 
 print(f"Total Interest:  {format_money(plan.total_interest, 'BDT')}")
-# → Total Interest:  BDT 1,10,835.20
+# -> Total Interest:  BDT 1,10,835.20
 
 print(f"Final Balance:   {plan.schedule[-1].remaining_balance}")
-# → Final Balance:   0.0 (Guaranteed Terminal Zero Closure)
+# -> Final Balance:   0.0 (Guaranteed Terminal Zero Closure)
 ```
 
 ### 2. Tabular Pandas DataFrame Schedule Analysis
@@ -125,7 +125,7 @@ cashflows = [
 
 rate = xirr(cashflows)
 print(f"Annualized Internal Rate of Return (XIRR): {rate * 100:.2f}%")
-# → Annualized Internal Rate of Return (XIRR): 24.83%
+# -> Annualized Internal Rate of Return (XIRR): 24.83%
 ```
 
 ### 4. Alternative Credit Risk & MFS Nano-Loan Scoring
