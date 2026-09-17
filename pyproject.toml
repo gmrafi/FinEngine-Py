@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-    { name = "CFSBR Computational Team", email = "research@cfsbr.org" }
+    { name = "Md Golam Mubasshir Rafi", email = "rafi@gmrafi.com.bd" }
 ]
 maintainers = [
-    { name = "Md Golam Mubasshir Rafi", email = "rafi@cfsbr.org" }
+    { name = "Md Golam Mubasshir Rafi", email = "rafi@gmrafi.com.bd" }
 ]
 keywords = [
     "finance",
@@ -67,6 +67,8 @@ dev = [
 Homepage = "https://finengine.js.org/python/"
 Documentation = "https://finengine.js.org/python/"
 Repository = "https://github.com/gmrafi/FinEngine-Py"
+"Parent Ecosystem" = "https://finengine.js.org/"
+"Technical Paper" = "https://finengine.js.org/methodology/"
 "Issue Tracker" = "https://github.com/gmrafi/FinEngine-Py/issues"
 
 [tool.hatch.build.targets.wheel]

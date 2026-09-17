@@ -1,6 +1,7 @@
 """FinEngine Python SDK - Deterministic Financial Math & Quantitative Primitives.
 
-A CFSBR Computational Initiative.
+Developed by Md Golam Mubasshir Rafi.
+A computational research initiative by the Centre for Fintech & Strategic Business Research (CFSBR).
 """
 
 from __future__ import annotations
@@ -34,10 +35,15 @@ from finengine.math import (
 )
 
 __version__ = "0.1.0"
-__author__ = "CFSBR Computational Team"
+__author__ = "Md Golam Mubasshir Rafi"
+__email__ = "rafi@gmrafi.com.bd"
+__affiliation__ = "Centre for Fintech & Strategic Business Research (CFSBR)"
 
 __all__ = [
     "__version__",
+    "__author__",
+    "__email__",
+    "__affiliation__",
     "amortize",
     "monthly_payment",
     "xirr",

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use FinEngine-Py or this computational methodology, please cite it as below."
+authors:
+  - family-names: "Rafi"
+    given-names: "Md Golam Mubasshir"
+    affiliation: "Centre for Fintech and Strategic Business Research (CFSBR)"
+title: "FinEngine-Py: Deterministic Financial Math and Quantitative Primitives for Python"
+version: 0.1.0
+doi: 10.67226/cfsbr.fe.2026.001.v1
+date-released: 2026-09-18
+url: "https://finengine.js.org/python/"
+repository-code: "https://github.com/gmrafi/FinEngine-Py"
+license: MIT
