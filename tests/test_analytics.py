@@ -1,13 +1,9 @@
 """Analytics and portfolio simulation tests."""
 
-import pytest
 from finengine import (
     Prepayment,
-    amortize,
-    batch_amortize,
     portfolio_summary,
     simulate_loan,
-    to_dataframe,
 )
 
 

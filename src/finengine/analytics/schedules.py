@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from typing import Any, Iterable, List, Sequence, Union
-from finengine.math.amortization import AmortizationPlan, AmortizationRow, amortize, monthly_payment
+from finengine.math.amortization import AmortizationPlan, AmortizationRow, amortize
 from finengine.math.money import round2
 
 

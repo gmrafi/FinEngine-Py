@@ -1,8 +1,6 @@
 """Tests for alternative credit risk and MFS scoring engine."""
 
-import pytest
 from finengine import (
-    CreditScorer,
     MFSProfile,
     assess_credit_risk,
 )
