@@ -1,6 +1,7 @@
 # FinEngine-Py
 
 [![PyPI Version](https://img.shields.io/pypi/v/finengine?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/finengine/)
+[![Documentation](https://img.shields.io/badge/Docs-finengine.js.org%2Fpython-2563eb)](https://finengine.js.org/python/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/finengine?color=blue&logo=python&logoColor=white)](https://pypi.org/project/finengine/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/gmrafi/FinEngine-Py/blob/main/LICENSE)
 [![DOI](https://img.shields.io/badge/DOI-10.67226%2Fcfsbr.fe.2026.001.v1-blue)](https://doi.org/10.67226/cfsbr.fe.2026.001.v1)
@@ -12,7 +13,9 @@
 
 A computational research initiative by the **Centre for Fintech & Strategic Business Research (CFSBR)**.
 
-[Key Guarantees](#key-guarantees) · [Ecosystem](#monorepo-packages--cross-platform-ecosystem) · [Installation](#installation) · [Quickstart](#quickstart-examples) · [Live Surfaces](#live-interactive-surfaces) · [Citation](#academic-backing--citation) · [Development](#local-development--testing)
+**Official Website & Documentation**: [https://finengine.js.org/python/](https://finengine.js.org/python/)
+
+[Official Docs](https://finengine.js.org/python/) · [Key Guarantees](#key-guarantees) · [Ecosystem](#monorepo-packages--cross-platform-ecosystem) · [Installation](#installation) · [Quickstart](#quickstart-examples) · [Live Surfaces](#live-interactive-surfaces) · [Citation](#academic-backing--citation) · [Development](#local-development--testing)
 
 ---
 
