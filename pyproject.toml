@@ -1,0 +1,83 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "finengine"
+version = "0.1.0"
+description = "Deterministic financial math, credit risk modeling, and quantitative primitives."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "CFSBR Computational Team", email = "research@cfsbr.org" }
+]
+maintainers = [
+    { name = "Md Golam Mubasshir Rafi", email = "rafi@cfsbr.org" }
+]
+keywords = [
+    "finance",
+    "amortization",
+    "xirr",
+    "credit-risk",
+    "quantitative-finance",
+    "fintech",
+    "mfs",
+    "actuarial"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+analysis = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0"
+]
+ai = [
+    "scikit-learn>=1.3.0",
+    "numpy>=1.24.0"
+]
+all = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0"
+]
+dev = [
+    "pytest>=7.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0"
+]
+
+[project.urls]
+Homepage = "https://finengine.js.org/python/"
+Documentation = "https://finengine.js.org/python/"
+Repository = "https://github.com/gmrafi/FinEngine-Py"
+"Issue Tracker" = "https://github.com/gmrafi/FinEngine-Py/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/finengine"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.mypy]
+python_version = "3.9"
+strict = true
+warn_unused_configs = true
+disallow_untyped_defs = true
