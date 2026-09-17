@@ -34,7 +34,7 @@ from finengine.math import (
     xirr,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Md Golam Mubasshir Rafi"
 __email__ = "rafi@gmrafi.com.bd"
 __affiliation__ = "Centre for Fintech & Strategic Business Research (CFSBR)"
