@@ -2,6 +2,7 @@
 
 [![PyPI Version](https://img.shields.io/pypi/v/finengine?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/finengine/)
 [![Documentation](https://img.shields.io/badge/Docs-finengine.js.org%2Fpython-2563eb)](https://finengine.js.org/python/)
+[![Read the Docs](https://img.shields.io/readthedocs/finengine?logo=readthedocs&logoColor=white)](https://finengine.readthedocs.io/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/finengine?color=blue&logo=python&logoColor=white)](https://pypi.org/project/finengine/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/gmrafi/FinEngine-Py/blob/main/LICENSE)
 [![DOI](https://img.shields.io/badge/DOI-10.67226%2Fcfsbr.fe.2026.001.v1-blue)](https://doi.org/10.67226/cfsbr.fe.2026.001.v1)
@@ -13,9 +14,9 @@
 
 A computational research initiative by the **Centre for Fintech & Strategic Business Research (CFSBR)**.
 
-**Official Website & Documentation**: [https://finengine.js.org/python/](https://finengine.js.org/python/)
+**Official Website & Documentation**: [https://finengine.js.org/python/](https://finengine.js.org/python/) | **API Docs (Read the Docs)**: [https://finengine.readthedocs.io/](https://finengine.readthedocs.io/)
 
-[Official Docs](https://finengine.js.org/python/) · [Key Guarantees](#key-guarantees) · [Ecosystem](#monorepo-packages--cross-platform-ecosystem) · [Installation](#installation) · [Quickstart](#quickstart-examples) · [Live Surfaces](#live-interactive-surfaces) · [Citation](#academic-backing--citation) · [Development](#local-development--testing)
+[Official Docs](https://finengine.js.org/python/) · [API Reference (RTD)](https://finengine.readthedocs.io/) · [Key Guarantees](#key-guarantees) · [Ecosystem](#monorepo-packages--cross-platform-ecosystem) · [Installation](#installation) · [Quickstart](#quickstart-examples) · [Live Surfaces](#live-interactive-surfaces) · [Citation](#academic-backing--citation) · [Development](#local-development--testing)
 
 ---
 
@@ -179,6 +180,7 @@ Explore FinEngine live in your browser:
 
 - **Flagship Portal**: [https://finengine.js.org/](https://finengine.js.org/)
 - **Python SDK & Quant Hub**: [https://finengine.js.org/python/](https://finengine.js.org/python/)
+- **Read the Docs (API Reference)**: [https://finengine.readthedocs.io/](https://finengine.readthedocs.io/)
 - **Live Loan Simulator**: [https://finengine.js.org/#interactive-simulator](https://finengine.js.org/#interactive-simulator)
 - **VS Code Precision Playground**: [https://finengine.js.org/#precision-playground](https://finengine.js.org/#precision-playground)
 - **Full Simulation Lab**: [https://finengine.js.org/simulation/](https://finengine.js.org/simulation/)
